@@ -19,6 +19,10 @@ Concert X is a web-based ticket booking system that allows users to explore upco
 - Open the project folder  
 - Open `index.html` in any browser  
 
+(or)
+
+ https://aishwaryakakaraparti.github.io/Concert-X/
+
 ## Purpose
 This project was built to practice frontend development and understand basic booking system logic.
 
