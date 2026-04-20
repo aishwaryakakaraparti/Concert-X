@@ -1,0 +1,255 @@
+body{
+font-family:'Poppins', sans-serif;
+background:linear-gradient(135deg,#1a1a2e,#f291ff);
+color:white;
+margin:0;
+}
+
+/* NAVBAR */
+nav{
+display:flex;
+justify-content:space-between;
+padding:15px 40px;
+background:rgb(229, 230, 224);
+backdrop-filter:blur(10px);
+}
+
+nav h2{
+color:#000000;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:rgb(0, 0, 0);
+text-decoration:none;
+}
+
+nav a:hover{
+color:#e94560;
+}
+
+/* HERO */
+.hero{
+height:300px;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),
+url("https://images.unsplash.com/photo-1501386761578-eac5c94b800a");
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+/* CARDS */
+.concerts{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border-radius:15px;
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-content{
+padding:15px;
+}
+
+/* BUTTON */
+button{
+background:#e94560;
+border:none;
+padding:20px 32px;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* SEATS */
+.seats{
+display:grid;
+grid-template-columns:repeat(8,40px);
+gap:10px;
+justify-content:center;
+margin-top:20px;
+}
+
+.seat{
+width:40px;
+height:40px;
+background:#ccc;
+cursor:pointer;
+border-radius:5px;
+}
+
+.seat.selected{
+background:#e94560;
+}
+
+/* FORM */
+.form{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+margin-top:20px;
+}
+
+.center{
+text-align:center;
+margin-top:50px;
+font-size:35px;
+}
+
+.search-box{
+display:flex;
+justify-content:center;
+margin:20px;
+}
+
+.search-box input{
+width:300px;
+padding:12px 20px;
+border-radius:30px;
+border:none;
+outline:none;
+font-size:16px;
+background:rgba(255,255,255,0.1);
+color:white;
+backdrop-filter:blur(10px);
+}
+
+.search-box input::placeholder{
+color:#ccc;
+}
+
+.terms{
+margin:40px auto;
+width:80%;
+text-align:center;
+}
+
+.terms h2{
+margin-bottom:15px;
+font-weight:600;
+letter-spacing:1px;
+}
+
+.terms-box{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(15px);
+padding:20px 25px;
+border-radius:20px;
+box-shadow:0 8px 30px rgba(0,0,0,0.2);
+text-align:left;
+}
+
+.terms-box p{
+margin:10px 0;
+padding:10px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.terms-box p:hover{
+background:rgba(255,255,255,0.1);
+transform:translateX(5px);
+}
+
+.apple-form{
+width:300px;
+margin:30px auto;
+padding:30px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(20px);
+border-radius:20px;
+box-shadow:0 10px 40px rgba(0,0,0,0.2);
+}
+
+.apple-form input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:12px;
+background:rgba(255,255,255,0.08);
+color:white;
+font-size:14px;
+outline:none;
+}
+
+.apple-form input::placeholder{
+color:#ccc;
+}
+
+/* Apple-style button */
+.apple-form button{
+width:100%;
+margin-top:15px;
+padding:12px;
+border-radius:12px;
+background:#ffffff;
+color:#000;
+font-weight:500;
+transition:0.3s;
+}
+
+.apple-form button:hover{
+background:#e5e5e5;
+}
+
+/* TRANSACTION BOX */
+.summary{
+display:none;
+width:300px;
+margin:20px auto;
+padding:20px;
+border-radius:15px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(15px);
+text-align:center;
+}
+
+.summary h3{
+margin-bottom:10px;
+}
+
+.receipt{
+text-align:left;
+font-size:14px;
+}
+
+.receipt p{
+margin:8px 0;
+}
+
+.receipt hr{
+border:0;
+border-top:1px solid rgba(255,255,255,0.2);
+margin:10px 0;
+}
+
+.success{
+color:#4cd964;
+font-weight:500;
+}
+
+.apple-form input{
+letter-spacing:1px;
+}

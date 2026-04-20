@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+  <h2>🎵 Concert X</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="details.html">Details</a></li>
+    <li><a href="seats.html">Seats</a></li>
+    <li><a href="booking.html">Booking</a></li>
+  </ul>
+</nav>
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search concerts..." onkeyup="searchConcerts()">
+</div>
+
+<section class="hero">
+<h1>🎶 Live Concert Experience</h1>
+<p>Feel the music. Book your vibe.</p>
+</section>
+
+<div class="concerts">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518972559570-7cc1309f3229">
+<div class="card-content">
+<h3>K-Pop Night</h3>
+<h4><b>18-04-2026 to 20-04-2026</b></h4>
+
+<button onclick="selectConcert('K-Pop Night')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2">
+<div class="card-content">
+<h3>EDM Festival</h3>
+<h4><b>23-01-2027</b></h4>
+<button onclick="selectConcert('EDM Festival')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1497032205916-ac775f0649ae">
+<div class="card-content">
+<h3>Rock Legends</h3>
+<h4><b>29-03-2027</b></h4>
+<button onclick="selectConcert('Rock Legends')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506157786151-b8491531f063">
+<div class="card-content">
+<h3>R&B Night</h3>
+<h4><b>21-03-2026</b></h4>
+<button onclick="selectConcert('R&B Night')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745">
+<div class="card-content">
+<h3>Hip-Hop Jam</h3>
+<h4><b>08-01-2027</b></h4>
+<button onclick="selectConcert('Hip-Hop Jam')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<div class="card-content">
+<h3>Jazz Evening</h3>
+<h4><b>04-10-2027</b></h4>
+<button onclick="selectConcert('Jazz Evening')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d">
+<div class="card-content">
+<h3>Classical Symphony</h3>
+<h4><b>23-07-2027</b></h4>
+<button onclick="selectConcert('Classical Symphony')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491">
+<div class="card-content">
+<h3>Indie Vibes</h3>
+<h4><b>16-07-2027</b></h4>
+<button onclick="selectConcert('Indie Vibes')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30">
+<div class="card-content">
+<h3>Bollywood Night</h3>
+<h4><b>07-06-2026</b></h4>
+<button onclick="selectConcert('Bollywood Night')">View Details</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604999333679-b86d54738315">
+<div class="card-content">
+<h3>Rhythms of South India</h3>
+<h4><b>25-12-2026</b></h4>
+<button onclick="selectConcert('Rhythms of South India')">View Details</button>
+</div>
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

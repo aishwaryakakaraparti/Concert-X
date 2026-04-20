@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Seats</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+  <h2>🎵 Concert X</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="details.html">Details</a></li>
+    <li><a href="seats.html">Seats</a></li>
+    <li><a href="booking.html">Booking</a></li>
+  </ul>
+</nav>
+
+<h2 class="center">Select Your Seats</h2>
+
+<div id="seatContainer" class="seats"></div>
+
+<p class="center">Selected Seats: <span id="count">0</span></p>
+
+<div class="center">
+<button onclick="goToBooking()">Book Now</button>
+</div>
+
+<div class="terms">
+  <h2>📜 Terms & Conditions</h2>
+
+  <div class="terms-box">
+    <p>- Seats are confirmed only after successful payment.</p>
+    <p>- Selected seats are held for a limited time only.</p>
+    <p>- All bookings are on a first-come, first-served basis.</p>
+    <p>- Seats cannot be changed or cancelled after booking.</p>
+    <p>- Tickets are non-refundable unless the event is cancelled.</p>
+    <p>- The organizer may modify seating or event details if required.</p>
+    <p>- A valid ticket is required for entry.</p>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
