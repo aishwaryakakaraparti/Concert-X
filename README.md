@@ -1,2 +1,26 @@
-# Concert-X
-Concert X is a web application that lets users book tickets easily with a simple and user-friendly interface.
+# Concert X
+
+Concert X is a web-based ticket booking system that allows users to explore upcoming concerts and book tickets easily.
+
+## Features
+- View list of Concerts
+- Check event details (date, venue)
+- Book tickets quickly and easily
+- Simple and user-friendly interface.
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## Project Setup
+
+- Download or clone the repository  
+- Open the project folder  
+- Open `index.html` in any browser  
+
+## Purpose
+This project was built to practice frontend development and understand basic booking system logic.
+
+## Author
+Kakaraparti Aishwarya
